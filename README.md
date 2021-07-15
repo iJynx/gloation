@@ -1,4 +1,4 @@
-# Welcome to the gloationo!
+# Welcome to the gloation!
 
 **TLDR: gloation is a homemade notion theme.** 
 
