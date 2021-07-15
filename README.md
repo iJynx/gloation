@@ -24,7 +24,7 @@ There are a couple problems with the theme and version of notion due to it being
 
 With these issues considered let's move on to the installation. Personally the benifits outweigh the costs.
 # How to install
-Want to install this godforsaken theme yourself? There's 4 easy steps. Lets go!
+Want to install this godforsaken theme yourself? There's 7(and a half) easy steps. Lets go!
 1. Download [NodeJS](https://nodejs.org/en/). The version should not matter. Just click `current` if unsure. 
 	- Once downloaded double click the installer to start the installation process.
 	- Make sure to restart your pc after installing node.
@@ -45,7 +45,11 @@ Want to install this godforsaken theme yourself? There's 4 easy steps. Lets go!
 7. Go back to `desktop/notion` and pin `Notion.exe` to your taskbar, startmenu, desktop, wherever you like.
 - Now you have it installed. Just click on one of the shortcuts or `notion.exe` and everything should be working
 
-# Want to customize?
+# Want to change the background image?
+Open `inject.css` in notepad or anyother IDE. The second line should contain the url. Replace the url for another url. _**Make sure that you actually put the url of an image, and not a link to a website. Going to google images and pressing copy link wont work. Press open image and then copy the url and then paste it into inject.css**_. After that make sure to save and restart notion. The line shoud look like `background-image: url('DOMAIN.COM/URL.PNG-OR-WHATEVER') !important;`. Make sure not to touch anything else
+ 
+
+# Want further custimization?
 If you hadn't already figured it out, you can add custom JS and CSS to `inject.js` and `inject.css` respectively. To see your changes in JS just reload notion, and to see updates in css you have to restart the entire app.
 
 # Having trouble?
