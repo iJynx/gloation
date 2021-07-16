@@ -7,6 +7,8 @@ Inspired by my last successful theme I decided to make another one, but for noti
 This is a super beta version of the theme and I hope to improve on it. If you find any issues please open an issue on github. Any contributions are greatly appreciated!
 
 
+## MAKE SURE YOU HAVE DARK MODE ENABLED BY DEFAULT
+
 # Preview
 ![img1](https://i.imgur.com/eTOyja0.png)
 ![img2](https://i.imgur.com/VZHWF4J.png)
