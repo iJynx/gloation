@@ -21,7 +21,7 @@ There are a couple problems with the theme and version of notion due to it being
 - No automatic updates
 - Might lag/freeze for a bit when opening and closing (and you might find yourself using task manager to close it sometimes)
 - The theme takes a couple seconds to install
-- Theme is inconsistent and doesn't load 10% of the time
+- Theme is inconsistent and doesn't load 2% of the time from my experiences
 - Won't show up on windows search without extra configuration
 
 With these issues considered let's move on to the installation. Personally the benifits outweigh the costs.
