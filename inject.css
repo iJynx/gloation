@@ -12,19 +12,7 @@ body.notion-body {
 
 
 
-
-
-
-
-/* Write custom CSS for .notion-topbar below */
-/**/
-
-/* Styles drag area as a custom titlebar */
-/**/
-/* Sets .notion-topbar as a drag area for electron */
-/* Disables text selection for .notion-topbar */
 .notion-topbar { -webkit-user-select: none; -webkit-app-region: drag; }
-/* Makes .notion-topbar buttons clickable */
 .notion-collection_view_page-block { -webkit-app-region: no-drag; }
 .notion-open-sidebar { -webkit-app-region: no-drag; }
 .notion-page-block { -webkit-app-region: no-drag; }
@@ -43,7 +31,6 @@ div.notion-sidebar {
     backdrop-filter: blur(6px);
 }
 
-
 div.notion-focusable {
     /* background: linear-gradient(90deg, rgba(142,0,163,0.5021358885351015) 0%, rgba(209,0,255,0.49933476808692223) 100%); */
     border-radius: 4px;
@@ -55,19 +42,12 @@ div.notion-focusable:hover {
 
     color: white;
 }
-/* 
-div.notion-overlay-container>div>div>div>div>div {
-}
-div.notion-overlay-container>div>div>div>div>div>div {
-}
-div.notion-overlay-container>div>div>div>div>div>div>div {
-    background: yellow !important;
-    width: 50000000px;
-}
-div.notion-overlay-container>div>div>div>div>div>div>div>div {
-    background: green !important;
-    width: 50000000px;
-} */
+
+
+
+
+/* i have to do this otherwise its unahppy */
+
 
 div.notion-overlay-container>div>div>div>div>div>div>div>div>div>div>div {
     background: none !important;
@@ -104,16 +84,6 @@ div.notion-overlay-container>div>div>div>div>div>div>div {
 div.div.div.notion-focusable-within {
     box-shadow: rgb(10 10 10 / 70%) 0px 0px 0px 1px inset, rgb(10 10 10 / 40%) 0px 0px 0px 2px !important
 }
-
-
-
-
-/* {
-    background-color: #11ffee00;  
-} */
-
-/* Write custom CSS below */
-/**/
 
 /* Cusotm Scrollbar Example */
 ::-webkit-scrollbar { background-color: #292d30; }
